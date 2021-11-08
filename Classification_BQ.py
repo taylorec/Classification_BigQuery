@@ -37,7 +37,7 @@ if payment_type == 'Credit Card':
 elif payment_type == 'Cash':
     payment_type = 1
 elif payment_type == 'Mobile':
-    payment_type == 2
+    payment_type = 2
 elif payment_type == 'Prcard':
     payment_type = 3
 elif payment_type == 'No Charge':
