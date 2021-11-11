@@ -95,29 +95,29 @@ elif hour == '11pm':
     hour = 23
 
 if month == 'Jan':
-    month = 0
-if month == 'Feb':
     month = 1
-if month == 'Mar':
+if month == 'Feb':
     month = 2
-if month == 'Apr':
+if month == 'Mar':
     month = 3
-if month == 'May':
+if month == 'Apr':
     month = 4
-if month == 'Jun':
+if month == 'May':
     month = 5
-if month == 'Jul':
+if month == 'Jun':
     month = 6
-if month == 'Aug':
+if month == 'Jul':
     month = 7
-if month == 'Sep':
+if month == 'Aug':
     month = 8
-if month == 'Oct':
+if month == 'Sep':
     month = 9
-if month == 'Nov':
+if month == 'Oct':
     month = 10
-if month == 'Dec':
+if month == 'Nov':
     month = 11
+if month == 'Dec':
+    month = 12
 
 if day == 'Mon':
     day = 0
