@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 23 22:25:51 2021
-
-@author: evan
-"""
 
 import streamlit as st
 import joblib
