@@ -9,7 +9,7 @@ import streamlit as st
 import joblib
 
 st.title('Tip Predictor')
-st.write("This app predicts if a customer will give a tip. This data comes from the chicago_taxi_trips.taxi_trips Google Big Query database.")
+st.write("This app predicts if a customer will tip the cab driver. The data comes from the chicago_taxi_trips.taxi_trips Google BigQuery database.")
  
 loaded_GB = joblib.load('GBmodel.joblib')
 
