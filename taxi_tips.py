@@ -139,7 +139,7 @@ prediction = loaded_GB.predict([[trip_seconds, trip_miles, pickup_comm, dropoff_
 if prediction == 0:
     prediction = 'No, this model predicts the customer will not tip.'
 else: 
-    prediction = 'Yes, this model predicts the customer will tip'
+    prediction = 'Yes, this model predicts the customer will tip.'
 st.write('Is this customer predicted to give a tip? {}'.format(prediction))
 
 
